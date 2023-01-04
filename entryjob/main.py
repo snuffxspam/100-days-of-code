@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-chrome_driver_path = "C:\\Users\\ximus\\Documents\\GitHub\\chromedriver\\chromedriver.exe"
+chrome_driver_path = "\\chromedriver\\chromedriver.exe"
 driver = webdriver.Chrome(chrome_driver_path)
 driver.get("https://hh.ru/account/login?backurl=%2F&hhtmFrom=main")
 
